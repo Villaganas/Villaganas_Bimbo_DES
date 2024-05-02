@@ -1,0 +1,26 @@
+DATA ENCRYPTION STANDARD (DES) 
+AIM: To apply Data Encryption Standard (DES) Algorithm for a practical application like User Message Encryption in PYTHON or JAVA.
+Data Encryption Standard (DES) Algorithm Implementation:
+Create a DES Key:
+You need to generate a DES key. The key should be securely generated and managed.
+Create a Cipher Instance:
+Use the Cipher class to create an instance. Specify the algorithm name (DES), mode (optional, e.g., ECB or CBC), and padding scheme (optional, e.g., PKCS5Padding).
+Convert String to Byte[] Array:
+Convert the message (plaintext) from a string format to a byte array format. This conversion is necessary for encryption.
+Encryption:
+Initialize the Cipher in encryption mode and encrypt the plaintext using the Cipher.doFinal() method. This method will return the encrypted ciphertext.
+Decryption:
+Initialize the Cipher in decryption mode and decrypt the ciphertext using the Cipher.doFinal() method. This will return the original plaintext.
+
+GitHub Name
+LASTNAME_FIRSTNAME_DES
+
+
+
+This code will not run accordingly if pycryptodome is not installed
+Before you run this code, make sure that you install first the pycryptodome.
+
+How to install pycryptodome:
+1. Open your terminal.
+2. Type "pip install pycryptodome" in powershell, then click enter.
+3. Once the pycryptodome is installed, you are ready to run the code.
